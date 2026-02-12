@@ -1,0 +1,5 @@
+Designator,Mid X,Mid Y,Layer,Rotation
+IC2,15.00,24.00,Top,270.0
+IC3,-15.00,24.00,Top,270.0
+IC4,15.00,43.00,Top,270.0
+U$1,-15.00,70.00,Top,180.0
