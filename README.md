@@ -172,7 +172,7 @@ In the moment I am writing, default effects are:
 7. Chorus
 8. Flanger
 9. Reverb
-10. 
+    
 Current code handles 16 chains of maximum 4 effects each.
 
 In the moment I am writing, default chains are:
@@ -257,6 +257,10 @@ After modification, you want to assembly your pedal. There are some good resourc
 [HERE](https://www.youtube.com/watch?v=CDaJYC2BYsA) is a video where a GEP2 is assembled from scratch (youtube)
 
 [HERE](http://www.super-freq.com/building-wah-enclosures/) is a nice writing with some additional hints (super-freq.com)
+
+# External links
+
+I have written an Instructables with even more details about the project cicuits and code. Take a look [HERE](https://www.instructables.com/FXLab-DIY-Programmable-Stereo-Multi-FX-Pedal/) :)
 
 # Acknowledgments
 
