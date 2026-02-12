@@ -177,21 +177,37 @@ Current code handles 16 chains of maximum 4 effects each.
 In the moment I am writing, default chains are:
 
 Compressor → Distortion → Chorus
+
 Compressor → Distortion → Flanger
+
 Compressor → Distortion → Reverb
+
 Compressor → Daft Distortion → Delay
+
 Compressor → Daft Distortion → Chorus
+
 Compressor → Daft Distortion → Flanger
+
 Compressor → Daft Distortion → Reverb
+
 Octaver → Distortion → Delay
+
 Octaver → Distortion → Flanger
+
 Octaver → Daft Distortion → Delay
+
 Octaver → Bit Crush → Delay
+
 Distortion
+
 Delay
+
 Chorus
+
 Flanger
+
 Reverb
+
 User can select the chain of interest by setting the 4-bit DIP switch according to attached scheme (0 means OFF, 1 means ON).
 
 Please notice that actual chains are limited to max 3 effects each, even if the code could handle 4.
