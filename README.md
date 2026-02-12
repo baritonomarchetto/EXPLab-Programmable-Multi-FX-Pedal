@@ -252,4 +252,27 @@ The encoders PCB can be used as a practical drill mask. In the following the ste
 - Use a multi-step drill to enlarge the holes up to 8 mm (7 would be a perfect fit).
 
 Now remove the tape, vacuum the working area from debrids et-voilà: you chassis is now ready for the assembly Step.
+After modification, you want to assembly your pedal. There are some good resources online:
+
+[HERE](https://www.youtube.com/watch?v=CDaJYC2BYsA) is a video where a GEP2 is assembled from scratch (youtube)
+
+[HERE](http://www.super-freq.com/building-wah-enclosures/) is a nice writing with some additional hints (super-freq.com)
+
+# Acknowledgments
+
+This project took months to be realized. It was complex enought to call for two preliminary PCBs before being realized in the form I showed you in this article.
+
+Many thanks goes to [JLCPCB](https://jlcpcb.com/IAT) for sponsoring PCBs manufacturing and [SMD assembly](https://jlcpcb.com/pcb-assembly) for this project.
+
+They also sponsored the manufacturing of all the preliminary PCBs. I wouldn't have gotten this far without their material help.
+
+Many many thanks.
+
+JLCPCB is a high-tech manufacturer specialized in the production of high-reliable and cost-effective PCBs. They offer a flexible PCB assembly service with a huge library of more than 630.000 components in stock at today. This project made use of the service and everything went smooth and clean.
+
+3D printing is part of their portfolio of services so one could create a full finished product, all in one place (note to self: start learning how to create 3D parts!).
+
+What about [nano-coated stencils](https://jlcpcb.com/resources/nano-coated-stencil) for your SMD projects? You can take advantage of a coupon and test it at reduced price in these days.
+
+By registering at JLCPCB site via [THIS LINK](https://jlcpcb.com/IAT) (affiliated link) you will receive a series of coupons for your orders. Registering costs nothing, so it could be the right opportunity to give their service a due try ;)
 
