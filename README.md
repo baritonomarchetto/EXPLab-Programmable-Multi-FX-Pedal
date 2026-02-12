@@ -42,7 +42,8 @@ The microcontroller board adopted (RP2040 Zero, a sort of Raspberry Pi Pico in s
 Simple analog filters at input/output stages and a DRY/WET mixer serve the microcontroller to reduce digital noise and artifacts and giveing some analog warmth to the processed signal.
 
 # Circuits
-** Power Supply Stage
+**Power Supply Stage**
+
 The pedal works out of a 9V alcaline battery or 9V center negative switching PSU.
 
 Out of the main 9V power source a series of other tensions are derived.
@@ -63,7 +64,8 @@ The circuit is protected against wrong polarity with a 1N4004 diode connectind G
 
 The input audio jack is used as switch for battery operation: if no input jack is inserted, the battery "-" (B-) is not connected to ground and current cannot flow. This is a simply trick adopted by pedals manufacturers asking for no additional components. It's made by using a stereo input jack and connecting B- to the ring. When a mono input jack is inserted, the ring is shorted to ground and the battery can erogate current. Niiice :)
 
-Input Stage
+**Input Stage**
+
 Input stage is very close to the one adopted by Electrosmash in their PedalShieldUNO, which in turn is very similar to those adopted by manufacturers of commercial digital processor. ElectroSmash themself made a very interesting analysis of the input stage of a Danelectro delay which closely resembles the solution adopted.
 
 Input stage is MONO, and served by an op-amp in order to increase the impedence and keep the guitar signal unaffected. A series of RC filters reduce noise before hitting the microcontroller board.
@@ -76,14 +78,16 @@ Input stage op-amp is over and under-voltage protected with low drop Schottky di
 
 The remaining input op-amp is used to buffer the 1.6V virtual ground and keep it steady.
 
-Digital-to-Analog Convertion
+**Digital-to-Analog Convertion**
+
 In a previous project of mine I messed up with PWM audio. I had to face the fact that PWM is not good enought to my ears, and a DAC (even the cheaper available) gives sensibly better results.
 
 In the aforementioned project I used a PT8211 stereo DAC to fight against PWM limits, and it saved the project. A no brainer then.
 
 PT8211 is a 16 bits DAC, massively used by DIY community, so it's a good candidate for a project like this, even for novices.
 
-Wet/Dry Mixing Stage
+**Wet/Dry Mixing Stage**
+
 After being processed, the left DAC channel goes through an inverting, mixing (summing) stage where it is mixed with a user definable amount of (filtered) dry signal. This stage is convenient to give more "life" to an otherwise 100% digital signal.
 
 This stage gives a 2X gain to the summed signal.
@@ -92,7 +96,7 @@ The right, processed channel is instead buffered through the remaining opamp in 
 
 Please notice that only the left channel has analog control over dry/wet signal.
 
-Filter Stage
+**Filter Stage**
 The output stage adopts the same solution I used in my Pi Pico Wavetable Oscillator Eurorack module. Both signals from the previous stage are independently low-pass filtered to limit digital artifacts at higher frequencies (noises and whines).
 
 The filter adopted is a Sallen-Key low-pass filter: a simple-but-effective, second-order active filter.
@@ -101,7 +105,8 @@ The filter is not amplified, like I did in my wavetable oscillator, because ther
 
 An AC coupling capacitor and a current limiting series resistor complete che output stage for the RIGHT channel. The LEFT/MONO channel goes instead through the true bypass section before being filtered and outputted (see next).
 
-True Bypass
+**True Bypass**
+
 The foot switch is configured in true bypass mode. When you deactivate the pedal, the input jack is wired directly to the left/mono output and the right channel muted at DAC level.
 
 Common guitar pedal footswitches have 3 poles to toy with. Two are used to deliver the bypass function. The third pole is commonly used to light a LED indicating the status (on or off) of the effect.
@@ -112,7 +117,8 @@ Here a Falstad's CircuitJS simulation of the circuit.
 
 Please notice that only the left channel has true bypass. Right channel signal is "digital-only" and fully generated inside the pedal (MONO-to-STEREO).
 
-Daughterboards
+**Daughterboards**
+
 I designed three daughterboards to host different elements.
 
 The first one is the footswitch daughterboard. It hosts the footswitch and a secondary circuit to monitor the state of the footswitch.
