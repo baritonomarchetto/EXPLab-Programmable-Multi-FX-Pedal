@@ -1,6 +1,11 @@
 # FXLab - DIY Programmable Stereo Multi FX Pedal
 A DIY multi FX pedal to program custom guitar effects. Built around an RP2040.
 
+![IMG_20260205_110146_risultato](https://github.com/user-attachments/assets/627167ff-254f-435d-a825-3c273a322983)
+
+![IMG_20260205_110201_risultato](https://github.com/user-attachments/assets/9f9aa43f-8508-48a7-98e9-f501dd76d20d)
+
+
 # Intro
 It was my convinction that developing a digital DIY pedal was not even worth a try.
 
@@ -122,6 +127,8 @@ Please notice that only the left channel has true bypass. Right channel signal i
 
 I designed three daughterboards to host different elements.
 
+![IMG_20260205_103323_risultato](https://github.com/user-attachments/assets/6a7ee045-d254-4c26-8abe-522824a442d4)
+
 The first one is the footswitch daughterboard. It hosts the footswitch and a secondary circuit to monitor the state of the footswitch.
 
 The second one is a potentiometer board. It hosts two potentiometers and is intended to be mounted on the left side of the pedal. I didn't adopted this in my project, but it's there for future use.
@@ -240,6 +247,8 @@ User can record parameters values simply by pressing the on-board, dedicated but
 
 # Pedal Chassis Modification
 
+![IMG_20260205_102127_risultato](https://github.com/user-attachments/assets/a8a88df4-692f-473e-ae97-4e653a010852)
+
 The expression pedal alone limits the ability to fine-tune our effects. It therefore becomes necessary to modify the pedal chassis so that two rotary encoders can be installed on the right side and made accessible.
 
 The encoders PCB can be used as a practical drill mask. In the following the steps to drill the two holes:
@@ -265,6 +274,10 @@ I have written an Instructables with even more details about the project cicuits
 # Acknowledgments
 
 This project took months to be realized. It was complex enought to call for two preliminary PCBs before being realized in the form I showed you in this article.
+
+![IMG_20260203_121533_risultato](https://github.com/user-attachments/assets/a2bc6ca1-ad24-4c1e-a7ab-ce428d253af1)
+
+![IMG_20260203_121603_risultato](https://github.com/user-attachments/assets/997ba211-97f1-40e1-a01c-a4e4223c67f3)
 
 Many thanks goes to [JLCPCB](https://jlcpcb.com/IAT) for sponsoring PCBs manufacturing and [SMD assembly](https://jlcpcb.com/pcb-assembly) for this project.
 
