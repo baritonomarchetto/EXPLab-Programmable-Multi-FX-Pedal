@@ -163,50 +163,36 @@ The code is structured such that effects can be developed independently from eac
 
 In the moment I am writing, default effects are:
 
-Compressor
-Octaver
-Distortion
-Daft Distorstion
-Bit Crusher
-Delay
-Chorus
-Flanger
-Reverb
+1. Compressor
+2. Octaver
+3. Distortion
+4. Daft Distorstion
+5. Bit Crusher
+6. Delay
+7. Chorus
+8. Flanger
+9. Reverb
+10. 
 Current code handles 16 chains of maximum 4 effects each.
 
 In the moment I am writing, default chains are:
 
-Compressor → Distortion → Chorus
-
-Compressor → Distortion → Flanger
-
-Compressor → Distortion → Reverb
-
-Compressor → Daft Distortion → Delay
-
-Compressor → Daft Distortion → Chorus
-
-Compressor → Daft Distortion → Flanger
-
-Compressor → Daft Distortion → Reverb
-
-Octaver → Distortion → Delay
-
-Octaver → Distortion → Flanger
-
-Octaver → Daft Distortion → Delay
-
-Octaver → Bit Crush → Delay
-
-Distortion
-
-Delay
-
-Chorus
-
-Flanger
-
-Reverb
+1. Compressor → Distortion → Chorus
+2. Compressor → Distortion → Flanger
+3. Compressor → Distortion → Reverb
+4. Compressor → Daft Distortion → Delay
+5. Compressor → Daft Distortion → Chorus
+6. Compressor → Daft Distortion → Flanger
+7. Compressor → Daft Distortion → Reverb
+8. Octaver → Distortion → Delay
+9. Octaver → Distortion → Flanger
+10. Octaver → Daft Distortion → Delay
+11. Octaver → Bit Crush → Delay
+12. Distortion
+13. Delay
+14. Chorus
+15. Flanger
+16. Reverb
 
 User can select the chain of interest by setting the 4-bit DIP switch according to attached scheme (0 means OFF, 1 means ON).
 
