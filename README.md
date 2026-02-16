@@ -11,7 +11,7 @@ It was my convinction that developing a digital DIY pedal was not even worth a t
 
 Not that I am an analog fundamentalist (I am NOT), but it was safe for me to assume that common microcontroller boards would struggle at sound processing.
 
-What made me completely change my mind is a project from ElectroSmash called [pedalShieldUNO](https://www.electrosmash.com/pedalshield-uno): 100% digital, based on the cheapest Arduino board and PWM audio, it was anyway capable of producing serious Daft Punk - like robot distortion/ocave shift and honest fuzz.
+What made me completely change my mind is a project from ElectroSmash called [pedalShield UNO](https://www.electrosmash.com/pedalshield-uno): 100% digital, based on the cheapest Arduino board and PWM audio, it was anyway capable of producing serious Daft Punk - like robot distortion/ocave shift and honest fuzz.
 
 Mind blown, new project on it's way!
 
