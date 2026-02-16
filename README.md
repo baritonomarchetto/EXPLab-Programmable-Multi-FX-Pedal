@@ -165,7 +165,7 @@ You also want to attach the full code, for a copy-and-paste result.
 
 # Code Structure and How-to
 
-Effect's Chains
+**Effect's Chains**
 The code is structured such that effects can be developed independently from each other, then used alone or in any effects chain, in any order.
 
 In the moment I am writing, default effects are:
@@ -205,7 +205,7 @@ User can select the chain of interest by setting the 4-bit DIP switch according 
 
 Please notice that actual chains are limited to max 3 effects each, even if the code could handle 4.
 
-Effect's Parameters
+**Effect's Parameters**
 Each effect has two or three control parameters. In general, the most effective (or "expressive") is at player's foot, the other two assigned to rotaries.
 
 Here is the current effects parameters mapping:
@@ -238,7 +238,7 @@ Effect parameters can be changed when the parameter is in focus. To move focus f
 
 All effects have left channel 100% WET (mix is set at hardware level through the dedicated trimmer), right channel is fixed 50% WET, 50% DRY.
 
-Memory!
+**Memory!**
 Parameters values can be stored for recall. Memorized parameters are kept in flash memory after shut down and reloaded at power on.
 
 Flash memory cannot be written for more than 100.000 times, so writing to it must be a user-trigged action, not authomatic.
